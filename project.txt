@@ -1,1 +1,6 @@
 here is the first and until now main project (no branching yet)
+
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+after : $ git checkout -b FirstWorkingBranch 
+we should be now creating and switching to this new branch (dunno what happens if other work on main is not resolved ?)
+lets see if we are there ... here nvm :)
