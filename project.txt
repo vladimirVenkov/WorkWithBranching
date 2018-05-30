@@ -4,3 +4,12 @@ https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 after : $ git checkout -b FirstWorkingBranch 
 we should be now creating and switching to this new branch (dunno what happens if other work on main is not resolved ?)
 lets see if we are there ... here nvm :)
+
+so far so good we did it! however for some reason : 
+git push -u origin <branch>
+didnt worked (maybe because we didnt push the fail project in main before that? dunno)
+git push --all -u 
+worked as a charm ~
+Lets see if can switch to main without saving these changes? -> Please commit your changes or stash them before you switch branches.
+Aborting
+Nope need to commit first ;)
