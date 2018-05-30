@@ -15,3 +15,9 @@ hotfixB git checkout -b hotfix -> created hotfix
 hotfixB 2/ git push -u origin hotfix
 hotfixB 2/actually worked ... and was pushed to the ummm origin/... (hotfix is the name of the branch)
 /hotfix marker here/ hotfix
+
+after merge: 
+https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/
+
+look here too:
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
