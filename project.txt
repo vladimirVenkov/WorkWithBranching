@@ -1,6 +1,17 @@
 1/here is the first and until now main project (no branching yet)
 
+/head marker here/ HEAD
 2/ah and we are here again while quite some stuff happend in FirstWorkingBranch... here is quiet.
 second add to branch master
 
 3/ right before merging with hotfix branch
+=  =
+hotfixB git checkout -b hotfix -> created hotfix
+hotfixB here and commenting section below:
+hotfixB //ah and we are here again while quite some stuff happend in FirstWorkingBranch... here is quiet.
+hotfixB //second add to branch master
+
+hotfixB git checkout -b hotfix -> created hotfix
+hotfixB 2/ git push -u origin hotfix
+hotfixB 2/actually worked ... and was pushed to the ummm origin/... (hotfix is the name of the branch)
+/hotfix marker here/ hotfix
