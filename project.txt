@@ -1,15 +1,17 @@
 here is the first and until now main project (no branching yet)
 
-https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
-after : $ git checkout -b FirstWorkingBranch 
-we should be now creating and switching to this new branch (dunno what happens if other work on main is not resolved ?)
-lets see if we are there ... here nvm :)
+BB https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+BB after : $ git checkout -b FirstWorkingBranch 
+BB we should be now creating and switching to this new branch (dunno what happens if other work on main is not resolved ?)
+BB lets see if we are there ... here nvm :)
 
-so far so good we did it! however for some reason : 
-git push -u origin <branch>
-didnt worked (maybe because we didnt push the fail project in main before that? dunno)
-git push --all -u 
-worked as a charm ~
-Lets see if can switch to main without saving these changes? -> Please commit your changes or stash them before you switch branches.
-Aborting
-Nope need to commit first ;)
+BB so far so good we did it! however for some reason : 
+BB git push -u origin <branch>
+BB didnt worked (maybe because we didnt push the fail project in main before that? dunno)
+BB git push --all -u 
+BB worked as a charm ~
+BB Lets see if can switch to main without saving these changes? -> Please commit your changes or stash them before you switch branches.
+BB Aborting
+BB Nope need to commit first ;)
+BB OK we can make changes to master but then We MUST add . and commit -m them; not need to push them in order to be able to checkout to branch (i.e. here)
+BB btw Adding BB before all branch lines ;)
